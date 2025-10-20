@@ -2,6 +2,22 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { BookOpen, Star, ArrowRight, Users, Award, Clock, Sparkles, ShoppingCart } from 'lucide-react';
 import { itemsAPI } from '../services/api';
+import Gemini_Generated_Image_k0gkc5k0gkc5k0gk from '../assets/Gemini_Generated_Image_k0gkc5k0gkc5k0gk.png';
+import Gemini_Generated_Image_1rbvc41rbvc41rbv from '../assets/Gemini_Generated_Image_1rbvc41rbvc41rbv.png';
+import Gemini_Generated_Image_9p7mjx9p7mjx9p7m from '../assets/Gemini_Generated_Image_9p7mjx9p7mjx9p7m.png';
+import Gemini_Generated_Image_43ei2f43ei2f43ei from '../assets/Gemini_Generated_Image_43ei2f43ei2f43ei.png';
+/*import Gemini_Generated_Image_4b7g9r4b7g9r4b7g from '../assets/Gemini_Generated_Image_4b7g9r4b7g9r4b7g.png';
+import Gemini_Generated_Image_5rycyh5rycyh5ryc from '../assets/Gemini_Generated_Image_5rycyh5rycyh5ryc.png';
+import Gemini_Generated_Image_6m1v3n6m1v3n6m1v from '../assets/Gemini_Generated_Image_6m1v3n6m1v3n6m1v.png';
+import Gemini_Generated_Image_7e5f4x7e5f4x7e5f from '../assets/Gemini_Generated_Image_7e5f4x7e5f4x7e5f.png';
+import Gemini_Generated_Image_8t9z8h8t9z8h8t9z from '../assets/Gemini_Generated_Image_8t9z8h8t9z8h8t9z.png';
+import Gemini_Generated_Image_9p0q2s9p0q2s9p0q from '../assets/Gemini_Generated_Image_9p0q2s9p0q2s9p0q.png';
+import Gemini_Generated_Image_10w4e610w4e610w4e from '../assets/Gemini_Generated_Image_10w4e610w4e610w4e.png';
+import Gemini_Generated_Image_11r8t411r8t411r8t from '../assets/Gemini_Generated_Image_11r8t411r8t411r8t.png';
+import Gemini_Generated_Image_12y5u012y5u012y5u from '../assets/Gemini_Generated_Image_12y5u012y5u012y5u.png';
+import Gemini_Generated_Image_13i6o213i6o213i6o from '../assets/Gemini_Generated_Image_13i6o213i6o213i6o.png';
+*/
+
 
 // Custom hook for scroll animations
 const useScrollAnimation = () => {
@@ -69,7 +85,7 @@ const Home = () => {
       subtitle: "Your Gateway to Knowledge and Learning Excellence - Discover premium educational resources",
       buttonText: "Browse Books",
       buttonLink: "/books",
-      image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570",
+      image: Gemini_Generated_Image_k0gkc5k0gkc5k0gk,
       alt: "Beautiful library with books"
     },
     {
@@ -77,7 +93,7 @@ const Home = () => {
       subtitle: "Explore the newest academic titles and learning materials",
       buttonText: "New Arrivals",
       buttonLink: "/books?filter=new",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+      image: Gemini_Generated_Image_1rbvc41rbvc41rbv,
       alt: "Modern library interior"
     },
     {
@@ -85,7 +101,7 @@ const Home = () => {
       subtitle: "Discover the most popular educational titles trusted by students and educators",
       buttonText: "View Bestsellers",
       buttonLink: "/books?filter=bestsellers",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+      image: Gemini_Generated_Image_9p7mjx9p7mjx9p7m,
       alt: "Cozy reading corner"
     },
     {
@@ -93,7 +109,7 @@ const Home = () => {
       subtitle: "Empowering minds with quality books and learning resources for academic success",
       buttonText: "Explore Collection",
       buttonLink: "/books",
-      image: "https://images.unsplash.com/photo-1521587760476-6c12a4b040da",
+      image: Gemini_Generated_Image_43ei2f43ei2f43ei ,
       alt: "Modern library interior"
     }
   ];
